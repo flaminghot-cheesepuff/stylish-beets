@@ -3,6 +3,7 @@ html {
   font-family: 'PT Serif', serif;
   background-color: #c9b5ab;
   color: #222;
+  line-height: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -16,14 +17,24 @@ h1 {
   font-family: 'PT Sans', sans-serif;
   color: #3f1622;
   font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-header ol {
+nav ol{
   list-style-type: none;
+  line-height: 1.75rem;
+}
+
+nav a {
   font-family: 'PT Sans', sans-serif;
   color: #8f2440;
   font-size: 1.125rem;
   text-decoration: none;
+}
+
+nav a:hover {
+  color: #3f1622;
+  border-bottom: 1px solid #3f1622;
 }
 
 figcaption {
@@ -43,6 +54,7 @@ img {
 blockquote {
   font-size: 1.5rem;
   font-style: italic;
+  line-height: 2rem;
 }
 
 footer > cite {
@@ -51,4 +63,32 @@ footer > cite {
 
 .beetsstrong {
   font-weight: normal;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
+  color: #3f1622;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.size {
+  font-style: italic;
+}
+
+footer a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #3f1622;
+  border-bottom: 1px solid #3f1622;
+}
+
+aside > ul {
+  font-size: 0.8rem;
 }
