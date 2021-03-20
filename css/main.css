@@ -13,14 +13,17 @@ html {
 font-family: 'PT Serif', serif; */
 
 h1 {
-  font-family: font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: #3f1622;
+  font-size: 1.5rem;
 }
 
 header ol {
   list-style-type: none;
-  font-family: font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: #8f2440;
+  font-size: 1.125rem;
+  text-decoration: none;
 }
 
 figcaption {
@@ -30,4 +33,22 @@ figcaption {
 
 img {
   width: 100%;
+}
+
+.harvesttime {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+footer > cite {
+  font-size: 0.8rem;
+}
+
+.beetsstrong {
+  font-weight: normal;
 }
