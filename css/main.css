@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   background-color: #c9b5ab;
   color: #222;
   line-height: 1.5rem;
@@ -14,19 +14,19 @@ html {
 font-family: 'PT Serif', serif; */
 
 h1 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-nav ol{
+nav ol {
   list-style-type: none;
   line-height: 1.75rem;
 }
 
 nav a {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #8f2440;
   font-size: 1.125rem;
   text-decoration: none;
@@ -58,7 +58,7 @@ blockquote {
 }
 
 footer > cite {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 .beetsstrong {
@@ -66,7 +66,7 @@ footer > cite {
 }
 
 h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   color: #3f1622;
 }
@@ -79,16 +79,17 @@ dt {
   font-style: italic;
 }
 
-footer a {
+a {
   color: #8f2440;
   text-decoration: none;
 }
 
-footer a:hover {
+a:hover {
   color: #3f1622;
   border-bottom: 1px solid #3f1622;
+  text-decoration: none;
 }
 
 aside > ul {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
