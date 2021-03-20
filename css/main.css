@@ -93,3 +93,11 @@ a:hover {
 aside > ul {
   font-size: .8rem;
 }
+
+ul {
+  list-style-type: circle;
+}
+
+main ol {
+  list-style-type: lower-greek;
+}
