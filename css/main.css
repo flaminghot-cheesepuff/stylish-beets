@@ -37,6 +37,12 @@ nav a:hover {
   border-bottom: 1px solid #3f1622;
 }
 
+nav:hover {
+  background-color: #c9b5ab;
+  color: #c9b5ab;
+  border-color: #c9b5ab;
+}
+
 figcaption {
   font-style: italic;
   text-align: center;
